@@ -78,3 +78,10 @@ for letter in range(len(letters)//2):
     if letters[letter] == letters[len(letters)-letter-1]:
         is_palindrome = "is a plaindrome."
 print(f"{letters} is {is_palindrome}.")
+
+odd = []
+n = 50
+
+for num in range(1, n, 2):
+    odd.append(num)
+print(f'odd = {odd}')
